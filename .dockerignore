@@ -1,0 +1,42 @@
+# Local Python environments and bytecode
+**/.venv/
+**/venv/
+**/__pycache__/
+**/*.py[cod]
+
+# Tests, caches, and temporary output
+tests/
+**/.pytest_cache/
+**/.pytest_tmp/
+**/.mypy_cache/
+**/.ruff_cache/
+**/.cache/
+**/.coverage*
+htmlcov/
+**/tmp/
+**/temp/
+**/*.tmp
+**/*.log
+
+# Version control, automation, and editor files
+.git/
+.github/
+**/.idea/
+**/.vscode/
+**/.DS_Store
+**/Thumbs.db
+**/desktop.ini
+**/*~
+**/*.swp
+**/*.swo
+.env
+.env.*
+
+# Offline training inputs and intermediate features are not serving inputs.
+data/raw/
+data/processed/features.csv
+
+# Keep saved portfolio serving artifacts in the image.
+!artifacts/metrics.json
+!artifacts/demand_model.joblib
+!data/processed/recommendations.csv

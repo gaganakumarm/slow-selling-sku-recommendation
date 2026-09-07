@@ -1,0 +1,11 @@
+{
+  "validation_start": "2016-04-25",
+  "validation_days": 28,
+  "rows_train": 942500,
+  "rows_validation": 14000,
+  "baseline_mae": 1.3911938775510204,
+  "model_mae": 1.2815390215680946,
+  "model_rmse": 3.477359509384318,
+  "model_wmape": 0.4736041575892438,
+  "mae_improvement_pct": 7.882068614042209
+}
